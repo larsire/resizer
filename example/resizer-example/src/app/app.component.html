@@ -1,0 +1,4 @@
+<div style="width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center">
+  <app-resizer [file]="imgURL"></app-resizer>
+  <input #file type="file" accept='image/*' (change)="preview(file.files)" />
+</div>
